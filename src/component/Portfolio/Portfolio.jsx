@@ -4,23 +4,24 @@ import "swiper/css";
 import "./Portfolio.css";
 import port1 from "../../assets/port1.jpeg";
 import port2 from "../../assets/port2.jpeg";
+import SimpleImageSlider from "react-simple-image-slider";
 
 const Portfolio = () => {
+  const images = [{ url: "../../assets/port1.jpg" }, { url: "images/2.jpg" }];
   return (
     <div className="portfolio">
       {/* heading*/}
       <span>Recent Projects</span>
       <span>Portfolio</span>
+      <SimpleImageSlider
+        width={896}
+        height={504}
+        images={images}
+        showBullets={true}
+        showNavs={true}
+      />
 
       {/* slider */}
-      <Swiper>
-        <SwiperSlide>
-          <img src={port1} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={port2} alt="" />
-        </SwiperSlide>
-      </Swiper>
     </div>
   );
 };
