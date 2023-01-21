@@ -17,18 +17,3 @@
     font-weight: bold;
 }
 /* slider */
-.portfolio .Swiper{
-    overflow: visible!important;
-}
-.portfolio-slider {
-    margin-top: 3rem;
-    width: 100%;
-}
-
-.portfolio-slider .Swiper-slide {
-    width: 20rem;
-}
-.portfolio img {
-    width: 19rem;
-    
-}

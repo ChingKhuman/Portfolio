@@ -1,25 +1,23 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+
 import "./Portfolio.css";
-import port1 from "../../assets/port1.jpeg";
-import port2 from "../../assets/port2.jpeg";
-import SimpleImageSlider from "react-simple-image-slider";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 
 const Portfolio = () => {
-  const images = [{ url: "../../assets/port1.jpg" }, { url: "images/2.jpg" }];
   return (
     <div className="portfolio">
       {/* heading*/}
       <span>Recent Projects</span>
       <span>Portfolio</span>
-      <SimpleImageSlider
-        width={896}
-        height={504}
-        images={images}
-        showBullets={true}
-        showNavs={true}
-      />
+      <Carousel>
+        <div className="image">
+          <img src="../../assets/port1.jpg" />
+        </div>
+        <div>
+          <img src="../../assets/port2.jpg" />
+        </div>
+      </Carousel>
 
       {/* slider */}
     </div>
