@@ -34,10 +34,13 @@ font-weight: bold;
     margin-top: 1rem;
 }
 .cards{
-    position: relative
+    position: relative;
+
+   
 }
 .cards>*{
-    position:absolute
+    position:absolute;
+   
 }
 .s-blur2 {
     left: 14rem;

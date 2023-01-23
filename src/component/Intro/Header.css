@@ -31,9 +31,9 @@
 }
 .i-name>:nth-child(3)
 {
-    color: var(--grey);
-    font-weight: 100;
-    font-size: 14px;
+    color: var(--black);
+    font-weight: bold;
+    font-size: 20px;
     margin-top: 10px;
 }
 .i-button{
@@ -63,20 +63,24 @@
 }
 .i-right>*{
     position: absolute;
+
    
 }
 .i-right>:nth-child(1){
-    transform: scale(0.80);
-    left: -15%;
-    top: -9%;
+    transform: scale(0.99);
+    left: -35%;
+    top: -20%;
+    
+    
 }
 .i-right>:nth-child(2){
-    top: -4.6%;
-    transform: scale(0.60);
-    left: -3rem
+    top: -.6%;
+    transform: scale(0.80);
+    left: 6rem
 }
 .i-right>:nth-child(3){           
     top: -13%;
+    left: 2rem;
     right: 33%; 
    transform: scale(0.60);
 }

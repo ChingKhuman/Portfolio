@@ -1,0 +1,80 @@
+.section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #131313;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50fr 3fr 3fr 2fr;
+    height: 100vh;
+    /* padding:2rem calc((100vw-1300px)/2); */
+}
+
+.column-left{
+display: flex;
+color: #fff;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 5rem 2rem;
+
+}
+.column-left> h1{
+    font-size: 2rem;
+    margin-bottom: 0rem;
+}
+.column-left> p{
+    font-size: 4rem;
+    margin: 1rem 0;
+    line-height: 1.1;
+}
+.button {
+    padding: 0rem 2rem;
+    font-size: 1rem;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    outline:none;
+    cursor: pointer;
+    background: transparent;
+    align-items: center;
+    
+}
+
+.column-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+    position:relative
+}
+.column-right> img{
+    position:absolute;
+    width: 100%;
+    height:100%;
+    max-width: 250px;
+    max-height: 250px;
+}
+.column-right>:nth-child(1)
+{
+top: 10px;
+left: 10px;
+}
+.column-right>:nth-child(2)
+{
+    top: 170px;
+    right:10px;
+
+}
+.column-right>:nth-child(3)
+{
+   top: 350px;
+    left: 50px;
+}
+.column-right>:nth-child(4)
+{
+    bottom: 100px;
+    right: 75px;
+}

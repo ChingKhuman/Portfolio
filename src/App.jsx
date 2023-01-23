@@ -1,21 +1,19 @@
-import { Card } from "@material-ui/core";
 import * as React from "react";
 
 import "./App.css";
-import Contact from "./component/Contact/Contact";
-import Experience from "./component/Experience/Experience";
-import Footer from "./component/Footer/Footer";
-
-import Header from "./component/Intro/Header";
 import Navbar from "./component/Navbar/Navbar";
-import Portfolio from "./component/Portfolio/Portfolio";
+import Header from "./component/Intro/Header";
 import Services from "./component/Services/Services";
-import Testimonial from "./component/Testimonial/Testimonial";
+import Experience from "./component/Experience/Experience";
 import Works from "./component/Works/Works";
+import Portfolio from "./component/Portfolio/Portfolio";
+import Testimonial from "./component/Testimonial/Testimonial";
+import Contact from "./component/Contact/Contact";
+import Footer from "./component/Footer/Footer";
 
 function App() {
   return (
-    <div className="container">
+    <div className="App">
       <Navbar />
       <Header />
       <Services />

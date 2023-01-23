@@ -29,6 +29,9 @@
 textarea {
     height: 4rem!important;
 }
+.but{
+    color: blue;
+}
 .c-blur1{
     top: 1rem;
     left:8rem
