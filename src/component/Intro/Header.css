@@ -21,7 +21,7 @@
 {
     color: var(--black);
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 .i-name>:nth-child(2)
 {
@@ -31,14 +31,27 @@
 }
 .i-name>:nth-child(3)
 {
-    color: var(--black);
+    color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 10px;
 }
 .i-button{
     width: 6rem;
     height:2rem;
+    border-radius: 34px;
+    border: none;
+    color: white;
+    background: linear-gradient(180deg, #4257df 26.71%, #cf469f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(59, 208, 66, 0.42);
+    
+}
+.i-button:hover{
+    background: rgb(31, 140, 236);
+    cursor: pointer;
+    color: blueviolet;
+    border: 1px solid rgb(7, 142, 214);
+    text-align: center;
 }
 
 .i-icons{
@@ -49,7 +62,7 @@
     justify-content:space-evenly;
 }
 .i-icons>*{
-    transform: scale(0.5);
+    transform: scale(1);
 }
 
 .i-icons>*:hover{
@@ -57,30 +70,53 @@
 }
 
 
-.i-right{
+ .i-right{
     flex:1;
-    position: relative;
-}
-.i-right>*{
-    position: absolute;
-
+    position: relative;    
    
 }
-.i-right>:nth-child(1){
-    transform: scale(0.99);
-    left: -35%;
-    top: -20%;
+
+.i-right>*{
+    position: absolute;
+   
+}
+
+ .i-right>:nth-child(1){
+    transform: scale(0.40);
+    left: -20%;
+    top: 10%;
     
     
 }
+
 .i-right>:nth-child(2){
-    top: -.6%;
-    transform: scale(0.80);
-    left: 6rem
+    top: -10%;
+    transform: scale(0.70);
+    left: 10rem
 }
+
 .i-right>:nth-child(3){           
     top: -13%;
     left: 2rem;
     right: 33%; 
-   transform: scale(0.60);
+   transform: scale(0.70);
+}
+
+@media screen and (max-width: 480px)
+{
+   .intro {
+    flex-direction: column;
+    height: 64rem;
+    gap:7rem
+   }  
+   .i-right{
+    transform: scale(0.8);
+    left: -3rem
+   }
+   .i-right .blur{
+    display: none;
+   }
+   .floating-div:nth-of-type(1){
+
+   }
 }

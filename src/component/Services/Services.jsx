@@ -2,43 +2,44 @@ import React from "react";
 import "./Services.css";
 import HeartEMoji from "../../assets/emoji1.png";
 import Card from "../Card/Card";
-import Resume from "./C.pdf";
+import Resume from "./CV1.pdf";
 
 const Services = () => {
   return (
-    <div className="services">
+    <div className="services" id="Services">
       {/*left side */}
       <div className="awesome">
         <span>My Details</span>
         <span>Services</span>
         <span>
-          Lorem ispum is simple dummy dfkjfdlkfjdlk
+          Ecommerce plateform, Data Binding,
+          <br /> Restful Api, Typescript, Front End and so on
           <br />
-          dlfjdl fldkjf dfl
+          React Native, Android plateform, etc
         </span>
         <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
+          <button className=" s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
 
       {/*right side */}
       <div className="cards">
-        <div style={{ left: "23rem", width: "30%" }}>
+        <div style={{ left: "17rem", width: "50%" }}>
           <Card
             emoji={HeartEMoji}
             heading={"Design"}
-            detail={"Figma, Sketch, Photoshop"}
+            detail={"Figma,Photoshop"}
           />
         </div>
-        <div style={{ top: "13rem", left: "11rem", width: "30%" }}>
+        <div style={{ top: "13rem", left: "5rem", width: "30%" }}>
           <Card
             emoji={HeartEMoji}
             heading={"Developer"}
-            detail={"Html,css, JavaScript, React"}
+            detail={" JavaScript, React"}
           />
         </div>
-        <div style={{ top: "16rem", left: "30rem" }}>
+        <div style={{ top: "16rem", left: "25rem" }}>
           <Card emoji={HeartEMoji} heading={"UI"} detail={"Html,css"} />
         </div>
         <div

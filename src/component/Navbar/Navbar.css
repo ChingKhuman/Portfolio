@@ -12,6 +12,7 @@
 .n-name{
 font-size: 1.3rem;
 font-weight:bold ;
+color: white;
 }
 .n-right{
     display: flex;
@@ -29,16 +30,29 @@ font-weight:bold ;
     gap: 2rem;
     margin-right: 4rem;
 }
+.n-list>ul >li {
+    color:white;
+}
 .n-list>ul >li:hover{
     cursor: pointer;
     color:var(--blue)
+    
 }
 
 .n-button{
  
   border-radius: 10px;
-  box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
-   background: #6088e6;
+  box-shadow: 0px 20px 24px 3px rgba(29, 187, 97, 0.42);
+   background: #b468a5;
+   text-align: center;
+}
+
+@media screen and (max-width: 480px)
+{
+    .n-list{
+        display: none;
+    }
+    
 }
 
 

@@ -5,16 +5,16 @@ import img2 from "../../assets/logoCompany.jpg";
 
 const Works = () => {
   return (
-    <div className="works">
+    <div className="works" id="Works">
       <div className="awesome">
         <span>Works for these</span>
         <span>Brands and Clients</span>
         <span>
-          Lorem ispum is simple dummy dfkjfdlkfjdlk
+          Ningthi (This is dilivery service project)
           <br />
-          dlfjdl fldkjf dfl fkjflkjfd dfkjf k
+          Bliss Cake_Cookies, Manipur Pune Service(Ecommerce)
           <br />
-          Lofjlkdfjdlkfjdlf dflkjdfl dlfkj
+          Resturant CLient
         </span>
 
         <button className="button s-button">Hire me</button>

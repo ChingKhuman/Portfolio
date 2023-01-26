@@ -1,9 +1,13 @@
 .footer {
     display: flex;
     align-items: center;
-    margin: -0.5rem;
-    position: relative;
-    margin-top: -7rem;
+    width: 66.4rem;
+    margin-left: -3rem;
+    
+    
+
+    padding-bottom: 20px;
+   
 
    
 }
@@ -21,4 +25,26 @@
 .f-icons{
     display: flex;
     gap: 2rem;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 480px)
+{
+    .footer{
+      display: contents;
+      
+    }
+    .f-content{
+        margin-top: -3rem;
+        
+    }
+    .f-content>span{
+        font-size: small;
+        text-align: center;
+        margin-left: -140px;
+    }
+    .f-icons{
+        
+display: none;
+    }
 }

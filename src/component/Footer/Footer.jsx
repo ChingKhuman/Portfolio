@@ -4,17 +4,28 @@ import footer from "../../assets/Footer.jpg";
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Github from "@iconscout/react-unicons/icons/uil-github";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="footer">
       <img src={footer} alt="" style={{ width: "100%" }} />
       <div className="f-content">
-        <span>Khumanchingtham123@gmail.com</span>
+        <span>
+          Email:Khumanchingtham123@gmail.com <br />
+          Contact: 9284236426
+        </span>
+
         <div className="f-icons">
-          <Insta color="blue" size="3rem" />
-          <Facebook color="blue" size="3rem" />
-          <Github color="blue" size="3rem" />
+          <a href="https://github.com/chingkhuman" target="_blank">
+            <Insta color="blue" size="3rem" />
+          </a>
+          <a href="https://github.com/chingkhuman" target="_blank">
+            <Facebook color="blue" size="3rem" />
+          </a>
+          <a href="https://github.com/chingkhuman" target="_blank">
+            <Github color="blue" size="3rem" />
+          </a>
         </div>
       </div>
 

@@ -8,6 +8,8 @@ import Testimonial from "../Testimonial/Testimonial";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import Header from "../Intro/Header";
+import Toogle from "../toogle/Toogle";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -15,19 +17,56 @@ const Navbar = () => {
       <div className="n-wrapper">
         <div className="n-left">
           <div className="n-name">Ching</div>
-          <span>toggle</span>
+          <Toogle />
         </div>
         <div className="n-right">
           <div className="n-list">
             <ul style={{ listStyleType: "none" }}>
-              <li>Home</li>
-              <li>Services</li>
-              <li>Experience</li>
-              <li>Portfolio</li>
-              <li>Testimonial</li>
+              <Link
+                spy={true}
+                to="Home"
+                smooth={true}
+                activeClass="activeClass"
+              >
+                <li>Home</li>
+              </Link>
+              <Link
+                spy={true}
+                to="Services"
+                smooth={true}
+                activeClass="activeClass"
+              >
+                <li>Services</li>
+              </Link>
+              <Link
+                spy={true}
+                to="Works"
+                smooth={true}
+                activeClass="activeClass"
+              >
+                <li>Work</li>
+              </Link>
+              <Link
+                spy={true}
+                to="Portfolio"
+                smooth={true}
+                activeClass="activeClass"
+              >
+                <li>Portfolio</li>
+              </Link>
+              <Link
+                spy={true}
+                to="Experience"
+                smooth={true}
+                activeClass="activeClass"
+              >
+                <li>Experience</li>
+              </Link>
             </ul>
           </div>
-          <button className="n-button">Contact </button>
+          <Link spy={true} to="Contact" smooth={true}>
+            <button className="n-button">Contact </button>
+          </Link>
         </div>
       </div>
     </>

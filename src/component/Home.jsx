@@ -1,4 +1,10 @@
-import React from "react";
+import React, {
+  createContext,
+  useContext,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 
 import "./Home.css";
 import { Link } from "react-router-dom";
@@ -33,15 +39,19 @@ const Home = () => {
             {" "}
             Welcome to my portfolio
           </motion.h1>
+
+          {/* <p>{count}</p>
+          <button onClick={() => setCount((c) => c + 1)}></button>
+          <p>{caluculation}</p> */}
           <motion.p
             variants={fadeLeft}
             initial="hidden"
             animate="visible"
             transition={{ duration: 1 }}
           >
-            Jourmer os on
+            Journey of my
             <br />
-            this side
+            Portfolio
           </motion.p>
           <Link to="/port">
             <motion.button

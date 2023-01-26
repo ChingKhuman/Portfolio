@@ -5,6 +5,9 @@
     margin-top: 4rem;
 
 }
+.awesome> :nth-child(3) {
+    color: white;
+}
 
 .w-right {
     position: relative;

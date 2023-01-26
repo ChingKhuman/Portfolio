@@ -1,5 +1,5 @@
 import * as React from "react";
-
+import { useContext } from "react";
 import "./App.css";
 import Navbar from "./component/Navbar/Navbar";
 import Header from "./component/Intro/Header";
@@ -10,8 +10,12 @@ import Portfolio from "./component/Portfolio/Portfolio";
 import Testimonial from "./component/Testimonial/Testimonial";
 import Contact from "./component/Contact/Contact";
 import Footer from "./component/Footer/Footer";
+import { themeContext, ThemeProvider } from "./Context";
 
 function App() {
+  const theme = useContext(themeContext);
+  const darkMode = theme;
+
   return (
     <div className="App">
       <Navbar />
@@ -19,7 +23,7 @@ function App() {
       <Services />
       <Experience />
       <Works />
-      <Portfolio />
+      {/* <Portfolio /> */}
       {/* <Testimonial /> */}
       <Contact />
       <Footer />
