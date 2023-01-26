@@ -54,7 +54,7 @@ textarea {
       
       }
     .awesome1> :nth-child(1) {
-        color: yellowgreen; 
+        color: rgb(50, 40, 95); 
         font-size: 20px; 
       margin-left: -4rem;
       }
