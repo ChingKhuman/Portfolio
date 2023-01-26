@@ -59,4 +59,8 @@
         width: 70px;
         height: 70px
     }
+    .achievement span:nth-child(3)
+    {
+        font-size: 15px;
+    }
 }

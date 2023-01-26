@@ -3,6 +3,7 @@
     display: flex;
     height: 90vh;
     margin-top: 4rem;
+    
 
 }
 .awesome> :nth-child(3) {
@@ -86,6 +87,14 @@
     background: yellow;
     left: 18rem;
     top: 8rem;
+}
+
+@media screen and (max-width: 480px)
+{
+ .works{
+    
+    margin-top: 8rem;
+ }
 }
 
 

@@ -8,7 +8,7 @@
 
 .c-right{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     position:relative;
     flex:1
 }
@@ -31,7 +31,10 @@ textarea {
     height: 4rem!important;
 }
 .but{
-    color: blue;
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+    background-color: rgb(209, 97, 200);
 }
 .c-blur1{
     top: 1rem;
@@ -42,6 +45,30 @@ textarea {
 {
     .contact-form{
         flex-direction: column;
-        margin-top: -130px;
+        margin-top: -50px;
     }
+    .awesome1 {
+      display: flex;
+      justify-content: space-evenly;
+     
+      
+      }
+    .awesome1> :nth-child(1) {
+        color: yellowgreen; 
+        font-size: 20px; 
+      margin-left: -4rem;
+      }
+    .awesome1> :nth-child(2) {
+        color: yellowgreen;        
+        margin-left: 1rem;
+       
+     
+      
+      }
+      .c-right{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: -100px;
+      }
 }
