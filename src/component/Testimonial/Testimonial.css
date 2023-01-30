@@ -22,14 +22,17 @@
         justify-content: center;
     }
     .pie{    
-        width: 00rem;
+        width: 50rem;
         padding-right: 5rem;
        margin-bottom: 30rem;
+       padding-bottom: -200rem;
      }
      .bar{
-        padding-right: 5rem;
-         width: 28rem;
-         height: 20rem;
+        padding-right: 1rem;
+         width: 0rem;
+         height: 00rem;
+         margin-bottom: -100rem;
+         
      }
      .bar>pv{
         font-size: 10px;
