@@ -2,7 +2,7 @@ import React from "react";
 import "./Services.css";
 import HeartEMoji from "../../assets/emoji1.png";
 import Card from "../Card/Card";
-import Resume from "./CV1.pdf";
+import Resume from "./chintham-cv1-up.pdf";
 
 const Services = () => {
   return (

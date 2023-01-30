@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
         <div className="n-right">
           <div className="n-list">
-            <ul style={{ listStyleType: "none" }}>
+            <ul style={{ listStyleType: "none", color: "white" }}>
               <Link
                 spy={true}
                 to="Home"

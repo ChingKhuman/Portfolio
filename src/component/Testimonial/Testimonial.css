@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: row;
+  
+}
+.name{
+    color:white
+}
+.pie{    
+   width: 20rem;
+   padding-left: -200rem;
+  margin-bottom: 10rem;
+}
+.bar{
+    width: 40rem;
+    height: 20rem;
+}
+@media screen and (max-width: 480px) {
+    .container{    
+        display: flex;   
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pie{    
+        width: 00rem;
+        padding-right: 5rem;
+       margin-bottom: 30rem;
+     }
+     .bar{
+        padding-right: 5rem;
+         width: 28rem;
+         height: 20rem;
+     }
+     .bar>pv{
+        font-size: 10px;
+     }
+}

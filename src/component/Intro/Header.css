@@ -117,7 +117,17 @@
    .i-right .blur{
     display: none;
    }
-   .floating-div:nth-of-type(1){
+   .i-right>:nth-child(1){
+    transform: scale(0.90);
+    left: -20%;
+    top: 18%;
+    
+    
+}
 
-   }
+.i-right>:nth-child(2){
+    top: -25%;
+    transform: scale(4);
+    left: 10rem
+}
 }

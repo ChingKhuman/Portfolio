@@ -31,7 +31,8 @@ const Contact = () => {
       <div className="w-left">
         <div className="awesome1">
           <span>Get in touch</span>
-          <span> Contact me</span>
+          <br />
+          <span>Contact me</span>
           <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}

@@ -31,6 +31,8 @@
 @media screen and (max-width: 480px)
 {
     .footer{
+      /* display: contents; */
+      margin-top: -10rem;
       display: contents;
       
     }
